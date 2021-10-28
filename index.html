@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Desciption" content="My responsive site">
     <title>Anas´s website</title>
     <link rel="stylesheet" href="./css/styling.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -20,25 +21,104 @@
     </header>
     <section id="Home-section">
         <video width="500" autoplay muted loop>
-            <source src="" type="">
+            <source src="./media/video/pexels-mikhail-nilov-7989667.mp4" type="video/mp4">
             Video can not be supported
         </video>
         <div class="hero-video-overlay">
-            <h1>Wellcome</h1>
-            <a href="#Services-section"></a>
+            <h1>Welcome</h1>
+            <a href="#Services-section">See what we have to offer</a>
         </div>
     </section>
     <section id="Services-section">
-        <main>
-            <article>
-                <i class="fa fa-code"></i>
-                <h3>Front Developer</h3>
+        <main Services-wrapper>
+            <article class="Services-card">
+            <div class="Services-card-header">
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <h3>Frontend Developer</h3>
+                </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Temporibus deserunt blanditiis harum natus modi. Magni autem 
                     itaque dolor eaque quia soluta, 
                     rerum adipisci sit quaerat non, aliquid minima? Ipsa, illum?</p>
             </article>
+            <article class="Services-card">
+                <div class="Services-card-header">
+                    <i class="fa fa-code"></i>
+                    <h3>Backend Developer</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Temporibus deserunt blanditiis harum natus modi. Magni autem 
+                        itaque dolor eaque quia soluta, 
+                        rerum adipisci sit quaerat non, aliquid minima? Ipsa, illum?</p>
+                </article>
+
+                <article class="Services-card">
+                    <div class="Services-card-header">
+                        <i class="fa fa-pencil"></i>
+                        <h3>Devops</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Temporibus deserunt blanditiis harum natus modi. Magni autem 
+                            itaque dolor eaque quia soluta, 
+                            rerum adipisci sit quaerat non, aliquid minima? Ipsa, illum?</p>
+                    </article>
+
+                    <article class="Services-card">
+                        <div class="Services-card-header">
+                            <i class="fa fa-users"></i>
+                            <h3>Choaching</h3>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Temporibus deserunt blanditiis harum natus modi. Magni autem 
+                                itaque dolor eaque quia soluta, 
+                                rerum adipisci sit quaerat non, aliquid minima? Ipsa, illum?</p>
+                        </article>
         </main>
     </section>
+    <section id="#About-section">
+        <aside class="about-image-wrapper">
+            <img src="" alt="User profile" width="100">
+        </aside>
+        <div class="about-text-wrapper">
+            <article>
+                <h2>About Anas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, deleniti
+                     dolor? Autem explicabo harum magni, esse 
+                    voluptatum veritatis blanditiis ab, eos sed facilis ipsam,
+                     nobis incidunt earum enim. Fugit, nihil?</p>
+            </article>
+        </div>
+    </section>
+    <section id="#social-section">
+        <h2>Share with the community</h2>
+        <div class="social-icons-wrapper">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-github"></i>
+        </div>
+    </section>
+    <footer id="#contact-seection">
+        <form onsubmit="alert('message sent!')" >
+            <input placeholder="example@gmail.com" type="email" id="Email" required>
+            <input placeholder="Subject" type="text" id="Subject" required>
+            <textarea placeholder="Write a message here!" rows="5" required></textarea>
+            <input type="submit" value="send">
+        </form>
+        <div class="contact-info-wrapper">
+            <div class="icon-and-text-wrapper">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto: example@gmail.com">Mail us</a>
+            </div>
+            <div class="icon-and-text-wrapper">
+                <i class="fa fa-phone"></i>
+                <a href="tel:0730000000">Call us</a>
+            </div>
+            <div class="address-wrapper">
+                <strong><p>Address</p></strong>
+                <p>346 70</p>
+                <p>Östermalm</p>
+            </div>
+        </div>
+    </footer>
 </body>
-</html>
+    
